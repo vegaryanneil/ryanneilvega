@@ -1,7 +1,10 @@
+import Landing from "./Pages/Landing";
+import GlobalStyle from "./GlobalStyle.css"
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <Landing></Landing>
     </div>
   );
 }

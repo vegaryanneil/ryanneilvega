@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* 1 rem = 10 px */
+    /* font-size: 62.5%; */
+    background-color: #191919;
+    color: #E5E5E5;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* h1 {
+    font-size: 9.6rem;
+}
+
+h2 {
+    font-size: 6.4rem;
+}
+
+p {
+    font-size: 2rem;
+} */
