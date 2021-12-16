@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ryanneilvega/static/css/main.2fe1605a.css",
-    "main.js": "/ryanneilvega/static/js/main.3e1738dd.js",
+    "main.css": "/ryanneilvega/static/css/main.e1d78ae7.css",
+    "main.js": "/ryanneilvega/static/js/main.edd2bd3e.js",
     "index.html": "/ryanneilvega/index.html",
-    "main.2fe1605a.css.map": "/ryanneilvega/static/css/main.2fe1605a.css.map",
-    "main.3e1738dd.js.map": "/ryanneilvega/static/js/main.3e1738dd.js.map"
+    "main.e1d78ae7.css.map": "/ryanneilvega/static/css/main.e1d78ae7.css.map",
+    "main.edd2bd3e.js.map": "/ryanneilvega/static/js/main.edd2bd3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fe1605a.css",
-    "static/js/main.3e1738dd.js"
+    "static/css/main.e1d78ae7.css",
+    "static/js/main.edd2bd3e.js"
   ]
 }
