@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Nav = () => {
     return (
         <NavContainer>
-            <h1><a>Ryan Neil Vega</a></h1>
+            <Logo><a href="/home">Ryan Neil Vega</a></Logo>
             <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -15,12 +15,20 @@ const Nav = () => {
     )
 }
 
+const Logo = styled.h1 
+`
+a{
+font-size: 10rem;
+text-decoration: none;
+cursor: pointer;
+}
+`
+
 const NavContainer = styled.div
 `
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-padding: 0 3rem;
 ul {
     display: flex;
     align-items: center;

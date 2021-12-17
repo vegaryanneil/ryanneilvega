@@ -1,12 +1,12 @@
 import Landing from "./Pages/Landing";
 import GlobalStyle from "./GlobalStyle.css"
+// import styled from "styled-components";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Landing></Landing>
-    </div>
+    </>
   );
 }
-
 export default App;
