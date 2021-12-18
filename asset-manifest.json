@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/ryanneilvega/static/css/main.04c14a49.css",
-    "main.js": "/ryanneilvega/static/js/main.0b603812.js",
+    "main.js": "/ryanneilvega/static/js/main.c36a4306.js",
     "index.html": "/ryanneilvega/index.html",
+    "static/media/reportWebVitals": "/ryanneilvega/static/media/reportWebVitals.2d7438e46e1e8c669a7f",
     "main.04c14a49.css.map": "/ryanneilvega/static/css/main.04c14a49.css.map",
-    "main.0b603812.js.map": "/ryanneilvega/static/js/main.0b603812.js.map"
+    "main.c36a4306.js.map": "/ryanneilvega/static/js/main.c36a4306.js.map"
   },
   "entrypoints": [
     "static/css/main.04c14a49.css",
-    "static/js/main.0b603812.js"
+    "static/js/main.c36a4306.js"
   ]
 }
