@@ -6,7 +6,6 @@ const Nav = () => {
         <NavContainer>
             <Logo><a href="/home">Ryan Neil Vega</a></Logo>
             <ul>
-                <li>Home</li>
                 <li>About</li>
                 <li>Work</li>
                 <li>Contact</li>
@@ -32,6 +31,7 @@ justify-content: space-between;
 ul {
     display: flex;
     align-items: center;
+    display: none;
 }
 li {
 font-size: 2rem;

@@ -36,7 +36,12 @@ display: flex;
 p {
     font-size: 7rem;
 }
-
+// p:hover {
+//     // background: red;
+//     transform: translateY(25rem) scale(2);
+//     transition-duration: 0.5s;
+    
+// }
 `
 const LandingTextTitle = styled.h1
 `
