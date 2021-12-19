@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Nav = () => {
     return (
         <NavContainer>
-            <Logo><a href="/home">Ryan Neil Vega</a></Logo>
+            <Logo><Link to="/">Ryan Neil Vega</Link></Logo>
             <ul>
-                <li>About</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/projects">Projects</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             </ul>
         </NavContainer>
     )

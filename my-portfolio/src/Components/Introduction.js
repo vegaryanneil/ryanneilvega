@@ -43,7 +43,7 @@ p {
     
 // }
 `
-const LandingTextTitle = styled.h1
+const LandingTextTitle = styled.h2
 `
 font-size: 3rem;
 width: 13rem;
