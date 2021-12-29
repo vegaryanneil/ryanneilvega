@@ -15,29 +15,32 @@ const Nav = () => {
     )
 }
 
-const Logo = styled.h1 
-`
-a{
-font-size: 10rem;
-text-decoration: none;
-cursor: pointer;
-}
-`
 
 const NavContainer = styled.div
 `
 display: flex;
-flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0 4.5% 1% 4.5%;
+
 justify-content: space-between;
 ul {
     display: flex;
     align-items: center;
-    display: none;
+    gap: 2rem;
+    list-style: none;
 }
 li {
-font-size: 2rem;
-list-style: none;
-padding: 0 2rem;
+    font-size: 3rem;
+}
+`
+
+const Logo = styled.h1 
+`
+font-size: 5rem;
+a{
+text-decoration: none;
+cursor: pointer;
 }
 `
 export default Nav

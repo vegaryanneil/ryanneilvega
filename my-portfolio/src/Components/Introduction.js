@@ -23,7 +23,6 @@ const Introduction = () => {
                 <li>LinkedIn</li>
                 <li>Email</li>
                 <li>Instagram</li>
-        
             </LandingList>
         </IntroContainer>
         </>
@@ -34,14 +33,8 @@ const IntroContainer = styled.div
 `
 display: flex;
 p {
-    font-size: 7rem;
+    font-size: 6rem;
 }
-// p:hover {
-//     // background: red;
-//     transform: translateY(25rem) scale(2);
-//     transition-duration: 0.5s;
-    
-// }
 `
 const LandingTextTitle = styled.h2
 `
@@ -53,7 +46,7 @@ padding-top: 1rem;
 const LandingList = styled.ul
 `
 li {
-    font-size: 7rem;
+    font-size: 6rem;
     list-style: none;
 }
 `
