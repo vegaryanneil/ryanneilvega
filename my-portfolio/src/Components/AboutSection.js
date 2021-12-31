@@ -34,39 +34,47 @@ const TitleContainer = styled.div
 `
 display: flex;
 flex-direction: column;
+@media (max-width: 1024px) {
+    flex-direction: row;
+}
+
 `
 const AboutDisplay = styled.div
 `
 display: flex;
+padding: 2.5% 4.5%;
+@media (max-width: 1024px) {
+    flex-direction: column;
+}
 `
 
 const AboutTextTitle = styled.h2
 `
-font-size: 3rem;
-width: 13rem;
+font-size: 5rem;
+width: 20rem;
 padding-top: 2rem;
 `
 
 const AboutText = styled.div
 `
 p {
-    font-size: 7rem;
-    line-height: 6rem;
+    font-size: calc(24px + (50 - 42) * (100vw - 640px) / (1439 - 640));
+    // line-height: 6rem;
     padding-top: 2rem;
 }
 `
 
 const ContactTitle = styled.h2
 `
-font-size: 3rem;
-width: 13rem;
+font-size: 5rem;
+width: 20rem;
 padding-top: 1rem;
 `
 
 const ContactList = styled.ul
 `
 li {
-    font-size: 7rem;
+    font-size: calc(24px + (50 - 42) * (100vw - 640px) / (1439 - 640));
     list-style: none;
 }
 `

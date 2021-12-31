@@ -55,6 +55,7 @@ const ProjectContainer = styled.div
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 2.5%
 
 `
 const EachProject = styled.div
