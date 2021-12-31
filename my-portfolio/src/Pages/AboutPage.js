@@ -14,8 +14,7 @@ const AboutPage = () => {
 
 const AboutPageContainer = styled.div
 `
-height: 90vh;
-padding: 0 4.5%
+
 `
 
 export default AboutPage

@@ -9,7 +9,7 @@ const Introduction = () => {
             <p>I am a full stack web developer with an interest in UI and UX Design.</p>
         </IntroContainer>
         <IntroContainer>
-            <LandingTextTitle>project.</LandingTextTitle>
+            <LandingTextTitle>projects.</LandingTextTitle>
             <LandingList>
                 <li> Victoria Bryant // Front End Consultant</li>
                 <li> Film Portfolio // Lead Developer</li>
@@ -32,21 +32,27 @@ const Introduction = () => {
 const IntroContainer = styled.div
 `
 display: flex;
+padding: 2.5% 4.5%;
+align-items: center;
 p {
-    font-size: 6rem;
+    font-size: calc(24px + (50 - 42) * (100vw - 640px) / (1439 - 640));
+}
+@media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: normal;
 }
 `
 const LandingTextTitle = styled.h2
 `
-font-size: 3rem;
-width: 13rem;
-padding-top: 1rem;
+font-size: 5rem;
+padding-right: 4.5%;
+width: 20rem;
 `
 
 const LandingList = styled.ul
 `
 li {
-    font-size: 6rem;
+    font-size: calc(24px + (50 - 42) * (100vw - 640px) / (1439 - 640));
     list-style: none;
 }
 `

@@ -1,15 +1,15 @@
-import React from 'react'
+import React, { Component }  from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Nav = () => {
     return (
         <NavContainer>
-            <Logo><Link to="/">Ryan Neil Vega</Link></Logo>
+            <Logo><StyledLink Component={Link} to="/">Ryan Neil Vega</StyledLink></Logo>
             <ul>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><StyledLink Component={Link} to="/about">About</StyledLink></li>
+                <li><StyledLink Component={Link} to="/projects">Projects</StyledLink></li>
+                <li><StyledLink Component={Link} to="/contact">Contact</StyledLink></li>
             </ul>
         </NavContainer>
     )
@@ -21,7 +21,8 @@ const NavContainer = styled.div
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0 4.5% 1% 4.5%;
+padding: 1% 4.5% 1% 4.5%;
+
 
 justify-content: space-between;
 ul {
@@ -30,17 +31,16 @@ ul {
     gap: 2rem;
     list-style: none;
 }
-li {
-    font-size: 3rem;
-}
+`
+
+const StyledLink = styled(Link)
+`
+    text-decoration: none;
+    font-size: 2.25rem;
+    cursor: pointer;
 `
 
 const Logo = styled.h1 
 `
-font-size: 5rem;
-a{
-text-decoration: none;
-cursor: pointer;
-}
 `
 export default Nav

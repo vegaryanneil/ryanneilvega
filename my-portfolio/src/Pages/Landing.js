@@ -15,8 +15,5 @@ const Landing = () => {
 
 const NavContainer = styled.div
 `
-// width: 90vw;
-height: 90vh;
-padding: 0 4.5%
 `
 export default Landing;

@@ -15,8 +15,6 @@ const ProjectPage = () => {
 
 const ProjectPageContainer = styled.div
 `
-height: 90vh;
-padding: 0 4.5%
 `
 
 export default ProjectPage
