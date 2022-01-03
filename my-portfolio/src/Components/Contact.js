@@ -7,7 +7,7 @@ const Contact = () => {
         <div>
             <ContactList>
                 <li><a href="https://www.linkedin.com/in/ryan-neil-vega/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-                <li><a href="https://www.linkedin.com/in/ryan-neil-vega/" target="_blank" rel="noreferrer">Instagram</a></li>
+                <li><a href="https://www.instagram.com/vega.css/" target="_blank" rel="noreferrer">Instagram</a></li>
                 <li><a href="mailto:vegaryanneil@gmail.com?subject=I saw your portfolio!">Email</a></li>
     
             </ContactList>
