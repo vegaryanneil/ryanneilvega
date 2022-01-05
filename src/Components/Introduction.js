@@ -2,6 +2,19 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Introduction = () => {
+    const bodyElement = document.querySelector('body')
+
+    function mouseOver() {
+      bodyElement.style.backgroundColor = "red";
+    }
+    
+    function mouseOut() {
+      bodyElement.style.backgroundColor = "white";
+    }
+    
+    window.addEventListener('mouseover', mouseOver);
+    window.addEventListener('mouseout', mouseOut);
+
     return (
         <>
         <IntroContainer>
@@ -12,9 +25,9 @@ const Introduction = () => {
             <LandingTextTitle>projects.</LandingTextTitle>
             <LandingList>
                 <li> Victoria Bryant // Front End Consultant</li>
-                <li> Film Portfolio // Lead Developer</li>
-                <li> Code.log // Lead Front End Developer</li>
-                <li> JustYourType // Lead Front End Developer</li>
+                <li><a href="/projects#Film_Portfolio"> Film Portfolio // Lead Developer</a></li>
+                <li><a href="/projects#Code_dot_log"> Code.log // Lead Front End Developer</a></li>
+                <li><a href="/projects#Just_Your_Type"> JustYourType // Lead Front End Developer</a></li>
             </LandingList>
             </IntroContainer>
         <IntroContainer>
@@ -54,6 +67,12 @@ const LandingList = styled.ul
 li {
     font-size: calc(24px + (50 - 42) * (100vw - 640px) / (1439 - 640));
     list-style: none;
+    a {
+        font-size: calc(24px + (50 - 42) * (100vw - 640px) / (1439 - 640));
+        text-decoration: none;
+        cursor: pointer;
+    }
 }
+
 `
 export default Introduction

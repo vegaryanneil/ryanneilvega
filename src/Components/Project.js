@@ -9,7 +9,7 @@ const Project = () => {
         <ProjectContainer>
             <EachProject>
                 <TitleContainer>
-                    <AboutTextTitle>Film Portfolio</AboutTextTitle>
+                    <AboutTextTitle id='Film_Portfolio'>Film Portfolio</AboutTextTitle>
                 </TitleContainer>
                 <ProjectImageContainer>
                 <ProjectImg src={PortfolioProjectGIF} alt="GIF File of Film Portfolio Website" />
@@ -23,7 +23,7 @@ const Project = () => {
            
             <EachProject>
                 <TitleContainer>
-                    <AboutTextTitle>Code.log</AboutTextTitle>
+                    <AboutTextTitle id='Code_dot_log'>Code.log</AboutTextTitle>
                 </TitleContainer>
                 <ProjectImageContainer>
                 <ProjectImg src={CodedotlogGIF} alt="GIF File of Codedotlog Website" />
@@ -37,7 +37,7 @@ const Project = () => {
         
             <EachProject>
                 <TitleContainer>
-                    <AboutTextTitle>Just Your Type</AboutTextTitle>
+                    <AboutTextTitle id='Just_Your_Type'>Just Your Type</AboutTextTitle>
                 </TitleContainer>
                 <ProjectImageContainer>
                 <ProjectImg src={JYTGIF} alt="GIF File of Just Your Type Website" />
