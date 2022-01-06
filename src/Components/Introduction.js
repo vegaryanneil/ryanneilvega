@@ -2,19 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Introduction = () => {
-    const bodyElement = document.querySelector('body')
-
-    function mouseOver() {
-      bodyElement.style.backgroundColor = "red";
-    }
-    
-    function mouseOut() {
-      bodyElement.style.backgroundColor = "white";
-    }
-    
-    window.addEventListener('mouseover', mouseOver);
-    window.addEventListener('mouseout', mouseOut);
-
     return (
         <>
         <IntroContainer>

@@ -14,7 +14,7 @@ const Project = () => {
                 <ProjectImageContainer>
                 <ProjectImg src={PortfolioProjectGIF} alt="GIF File of Film Portfolio Website" />
                 </ProjectImageContainer>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi perspiciatis aspernatur ratione voluptatum unde similique asperiores delectus architecto rem molestias eligendi, ea optio a vero maxime odio eveniet reiciendis illum?</p>
+                <p>Capture is a Film Portfolio Template. I built Capture to learn more about animations and user experience. I utilized GSAP, Framer Motion, and Vanilla CSS to create different animations you will see throughout the website.</p>
                 <ButtonContainer>
                     <ViewButton><a href="https://github.com/vegaryanneil/portfolio-template-videographer" target="_blank" rel="noreferrer">View Code</a></ViewButton>
                     <ViewButton><a href="https://film-portfolio.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></ViewButton>
@@ -28,7 +28,7 @@ const Project = () => {
                 <ProjectImageContainer>
                 <ProjectImg src={CodedotlogGIF} alt="GIF File of Codedotlog Website" />
                 </ProjectImageContainer>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi perspiciatis aspernatur ratione voluptatum unde similique asperiores delectus architecto rem molestias eligendi, ea optio a vero maxime odio eveniet reiciendis illum?</p>
+                <p>Codedotlog is an app for developers to set learning goals and keep track of their progress towards completing their goals. Developers can log hours dedicated to their coding practice of a particular language or skill and monitor their progress.</p>
                 <ButtonContainer>
                     <ViewButton><a href="https://github.com/hanlee-311/codedotlog" target="_blank" rel="noreferrer">View Code</a></ViewButton>
                     <ViewButton><a href="https://codedotlog.herokuapp.com/" target="_blank" rel="noreferrer">Live Site</a></ViewButton>
@@ -42,7 +42,7 @@ const Project = () => {
                 <ProjectImageContainer>
                 <ProjectImg src={JYTGIF} alt="GIF File of Just Your Type Website" />
                 </ProjectImageContainer>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi perspiciatis aspernatur ratione voluptatum unde similique asperiores delectus architecto rem molestias eligendi, ea optio a vero maxime odio eveniet reiciendis illum?</p>
+                <p>Just Your Type combines the user interface of a dating application and with the excitement of new typography. Our web application uses Google Fonts API and applies the styling to a random quote generator via Quote Garden.</p>
                 <ButtonContainer>
                     <ViewButton><a href="https://github.com/hanlee-311/Just-Your-Type" target="_blank" rel="noreferrer">View Code</a></ViewButton>
                     <ViewButton><a href="https://hanlee-311.github.io/Just-Your-Type/" target="_blank" rel="noreferrer">Live Site</a></ViewButton>
