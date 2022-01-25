@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
-import bot from'../img/bot.png' 
+import bot from'../img/bot.png'
+import { Link } from 'react-router-dom'
 
 const Introduction = () => {
     return (
         <>
         <IntroContainer>
             <LandingTextTitle>about.</LandingTextTitle>
-            <p>I am a <span>MERN full stack web developer</span> with an interest in <span>UI and UX Design</span>.</p> <a href="/about"><img src={bot} alt="Hello Bot Icon"></img></a>
+            <p>I am a <span>MERN full stack web developer</span> with an interest in <span>UI and UX Design</span>.</p> <Link Component={Link} to="/about"><img src={bot} alt="Hello Bot Icon"></img></Link>
         </IntroContainer>
         <IntroContainer>
             <LandingTextTitle>projects.</LandingTextTitle>
