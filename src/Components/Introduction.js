@@ -71,6 +71,9 @@ li {
         text-decoration: none;
         cursor: pointer;
         transition-duration: 0.5s;
+        @media (max-width: 1024px) {
+            color: #C84B31;
+        }
     }
     a:hover {
         color: #C84B31;

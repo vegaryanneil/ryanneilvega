@@ -107,6 +107,4 @@ a:hover {
     color: #C84B31;
 }
 `
-
-
 export default AboutSection
