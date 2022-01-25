@@ -14,9 +14,9 @@ const Introduction = () => {
             <LandingTextTitle>projects.</LandingTextTitle>
             <LandingList>
                 <li> Victoria Bryant|<span>Front End Consultant</span></li>
-                <li><a href="/projects#Film_Portfolio" id="FilmPortfolio"> Film Portfolio </a>|<span>Lead Developer</span></li>
-                <li><a href="/projects#Code_dot_log"> Code.log </a>|<span>Lead Front End Developer</span></li>
-                <li><a href="/projects#Just_Your_Type"> JustYourType</a>|<span>Lead Front End Developer</span></li>
+                <li><Link Component={Link} to="/projects#Film_Portfolio" id="FilmPortfolio"> Film Portfolio </Link>|<span>Lead Developer</span></li>
+                <li><Link Component={Link} to="/projects#Code_dot_log"> Code.log </Link>|<span>Lead Front End Developer</span></li>
+                <li><Link Component={Link} to="/projects#Just_Your_Type"> JustYourType</Link>|<span>Lead Front End Developer</span></li>
             </LandingList>
             </IntroContainer>
         <IntroContainer>
