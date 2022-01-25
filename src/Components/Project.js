@@ -66,8 +66,8 @@ const ProjectContainer = styled.div
 `
 const EachProject = styled.div
 `
-height: 100vh;
-width: auto;
+height: 90vh;
+width: 80vw;
 p{
     font-size: 2rem;
     padding: 2% 0;

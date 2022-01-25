@@ -7,7 +7,7 @@ const Contact = () => {
         <div>
             <ContactList>
                 <li><a href="https://www.linkedin.com/in/ryan-neil-vega/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/vega.css/" target="_blank" rel="noreferrer">Instagram</a></li>
+
                 <li><a href="mailto:vegaryanneil@gmail.com?subject=I saw your portfolio!">Email</a></li>
     
             </ContactList>
@@ -26,17 +26,20 @@ li  {
     list-style: none;
 }
 a   {
-    font-size: 10rem;
-    transition-duration: 0.5s;
+    font-size: calc(100px + (50 - 42) * (100vw - 640px) / (1439 - 640));
     text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
 }  
 a:hover {
-    color: red;
+    color: #C84B31;
 }
 
 @media only screen and (max-width: 1024px) {
     flex-direction: column;
 }
+
+
 
 `
 

@@ -1,28 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
+import bot from'../img/bot.png' 
 
 const Introduction = () => {
     return (
         <>
         <IntroContainer>
             <LandingTextTitle>about.</LandingTextTitle>
-            <p>I am a full stack web developer with an interest in UI and UX Design.</p>
+            <p>I am a <span>MERN full stack web developer</span> with an interest in <span>UI and UX Design</span>.</p> <a href="/about"><img src={bot} alt="Hello Bot Icon"></img></a>
         </IntroContainer>
         <IntroContainer>
             <LandingTextTitle>projects.</LandingTextTitle>
             <LandingList>
-                <li> Victoria Bryant // Front End Consultant</li>
-                <li><a href="/projects#Film_Portfolio"> Film Portfolio // Lead Developer</a></li>
-                <li><a href="/projects#Code_dot_log"> Code.log // Lead Front End Developer</a></li>
-                <li><a href="/projects#Just_Your_Type"> JustYourType // Lead Front End Developer</a></li>
+                <li> Victoria Bryant|<span>Front End Consultant</span></li>
+                <li><a href="/projects#Film_Portfolio" id="FilmPortfolio"> Film Portfolio </a>|<span>Lead Developer</span></li>
+                <li><a href="/projects#Code_dot_log"> Code.log </a>|<span>Lead Front End Developer</span></li>
+                <li><a href="/projects#Just_Your_Type"> JustYourType</a>|<span>Lead Front End Developer</span></li>
             </LandingList>
             </IntroContainer>
         <IntroContainer>
             <LandingTextTitle>contact.</LandingTextTitle>
             <LandingList>
-                <li>LinkedIn</li>
-                <li>Email</li>
-                <li>Instagram</li>
+                <li><a href="https://www.linkedin.com/in/ryan-neil-vega/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                <li><a href="mailto:vegaryanneil@gmail.com?subject=I saw your portfolio!">Email</a></li>
             </LandingList>
         </IntroContainer>
         </>
@@ -41,6 +41,17 @@ p {
     flex-direction: column;
     align-items: normal;
 }
+span {
+    font-size: calc(24px + (50 - 42) * (100vw - 640px) / (1439 - 640));
+    color: #fdc046;
+}
+img {
+    transition-duration: 0.5s;
+    padding: 0 0 2rem 1rem;
+}
+img:hover {
+    transform: translateY(-1.5rem);
+}
 `
 const LandingTextTitle = styled.h2
 `
@@ -58,6 +69,10 @@ li {
         font-size: calc(24px + (50 - 42) * (100vw - 640px) / (1439 - 640));
         text-decoration: none;
         cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    a:hover {
+        color: #C84B31;
     }
 }
 
