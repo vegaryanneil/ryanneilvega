@@ -4,6 +4,7 @@ import ProjectPage from "./Pages/ProjectPage";
 import ContactPage from "./Pages/ContactPage";
 import CookiePage from "./Pages/CookiePage"
 import GlobalStyle from "./GlobalStyle.css"
+import EmailUsPage from "./Pages/EmailUsPage"
 // import styled from "styled-components";
 import {Routes, Route} from 'react-router-dom';
 
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/about" element={<AboutPage />} />
         <Route exact path="/projects" element={<ProjectPage />} />
         <Route exact path="/contact" element={<ContactPage />} />
+        <Route exact path="/contact-form" element={<EmailUsPage />} />
         <Route exact path="/cookie" element={<CookiePage />} />
       </Routes>
     </>
